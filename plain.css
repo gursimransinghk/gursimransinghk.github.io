@@ -8,8 +8,8 @@ body{
     text-align: center;
 }
 .img{
-    margin-top: 10%;
-    image-resolution: 200px 200px;
+    padding-top: 5%;
+    image-resolution: 20px 20px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 10px;
