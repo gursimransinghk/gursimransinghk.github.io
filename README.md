@@ -1,1 +1,0 @@
-# gursimransinghk.github.io
