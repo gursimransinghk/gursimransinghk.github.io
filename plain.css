@@ -10,4 +10,6 @@ body{
 .img{
     margin-top: 30%;
     image-resolution: 200px 200px;
+    text-align: center;
+    align-items: center;
 }
