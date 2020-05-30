@@ -1,42 +1,87 @@
 html{
-    background-color: orange;
+    background-color: black;
     padding: 0;
     height: 3000px;
 }
 body{
-    background-color: yellow;
     padding: 0;
     margin: 0;
     position: relative;
     top: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: monospace;
 }
 header{
-    background-color: pink;
     position: fixed;
     top: 0;
     width: 100%;
     justify-content: center;
     align-content: center;
     text-align: center;
+    font-size: 20px;
 }
 nav{
-    background-color: pink;
-    margin: 10px;
     position: fixed;
-    top: 10px;
-    left: 50%;
+    top: 20px;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 20px;
 }
 footer{
-    background-color: pink;
     position: fixed;
     bottom: 0;
     left: 50%;
 }
 .parent{
-    background-color: aqua;
     top: 100px;
     padding: 30px;
     height: 500px;
+    width: auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.one{
+    background-color: chartreuse;
+    margin: 5px;
+    width: 150px;
+    height: 50px;
+    color: black;
+ }
+
+.two{
+    background-color: chartreuse;
+    margin: 5px;
+    width: 150px;
+    height: 50px;
+    color: black;
+}
+.three{
+    background-color: chartreuse;
+    margin: 5px;
+    width: 150px;
+    height: 50px;
+    color: black;
+}
+.four{
+    background-color: chartreuse;
+    margin: 5px;
+    width: 150px;
+    height: 50px;
+    color: black;
+}
+
+.social{
+    top: 100px;
+    padding: 30px;
+    height: 150px;
     width: auto;
     display: flex;
     flex-flow: row wrap;
@@ -44,23 +89,54 @@ footer{
     justify-content: center;
     align-content: center;
 }
-.one{
-    background-color: red;
+.icon-instagram{
     margin: 5px;
-    width: 150px;
+    height: 50px;
+    width: 50px;
 }
-.two{
-    background-color: red;
+.icon-facebook{
     margin: 5px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
 }
-.three{
-    background-color: red;
+.icon-snapchat{
     margin: 5px;
-    width: 300px;
+    height: 50px;
+    width: 50px;
 }
-.four{
-    background-color: red;
+.icon-github{
     margin: 5px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
+}
+ul{
+    top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+li{
+    list-style-type: none;
+    margin: 10px;
+    text-align: center;
+}
+a{
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    color: chartreuse;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+a:hover{
+    color: black;
+    background: chartreuse;
+    box-shadow: 0 0 40px chartreuse, 0 0 80px chartreuse;
+    transition-delay: 0.1s;
 }
