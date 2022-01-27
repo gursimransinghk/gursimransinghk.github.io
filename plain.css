@@ -140,3 +140,10 @@ a:hover{
     box-shadow: 0 0 40px chartreuse, 0 0 80px chartreuse;
     transition-delay: 0.1s;
 }
+
+#blink {
+            font-size: 40px;
+            font-weight: bold;
+            color: chartreuse;
+            transition: 0.5s;
+        }
