@@ -9,13 +9,13 @@
   </head>
 
   <body>
-      <header><marquee> <p id="blink"> Testing </p>
+      <header><marquee behavior="scroll" direction="left" scrollamount="20"> <p id="blink"> Testing </p>
     <script type="text/javascript">
         var blink = document.getElementById('blink');
         setInterval(function() {
             blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
         }, 1500);
-    </script><marquee behavior="scroll" direction="left" scrollamount="20"></marquee></header>
+    </script></marquee></header>
       <nav>
         <ul>
           <li><a href="#">HOME</a></li>
