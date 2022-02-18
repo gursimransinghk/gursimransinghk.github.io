@@ -1,8 +1,11 @@
-html{
-    background-color: rgb(255, 255, 255);
+*
+{
+    margin: 0;
     padding: 0;
-    height: 3000px;
+    background-color: black;
+    font-family: Helvetica;
 }
+
 body{
     padding: 0;
     margin: 0;
@@ -11,139 +14,66 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-family: monospace;
+    height: 3000px;
 }
+
 header{
     position: fixed;
     top: 0;
     width: 100%;
     justify-content: center;
-    align-content: center;
-    text-align: center;
-    font-size: 40px;
 }
-nav{
-    position: fixed;
-    top: 20px;
-    width: 100%;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
+
+.name{
+    color: black;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10%;
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.hoover li a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+.nav-menu{
+    color: black;
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 10%;
+}
+
+.nav-menu li{
+    display: inline-block;
+}
+
+.nav-menu li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
     font-size: 20px;
 }
-footer{
-    position: fixed;
-    bottom: 0;
-    left: 50%;
-}
-.parent{
-    top: 100px;
-    padding: 30px;
-    height: 500px;
-    width: auto;
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-}
-.one{
-    background-color: rgb(255, 153, 0);
-    margin: 5px;
-    width: 150px;
-    height: 50px;
-    color: black;
- }
 
-.two{
-    background-color: chartreuse;
-    margin: 5px;
-    width: 150px;
-    height: 50px;
-    color: black;
-}
-.three{
-    background-color: chartreuse;
-    margin: 5px;
-    width: 150px;
-    height: 50px;
-    color: black;
-}
-.four{
-    background-color: chartreuse;
-    margin: 5px;
-    width: 150px;
-    height: 50px;
-    color: black;
-}
-
-.social{
-    top: 100px;
-    padding: 30px;
-    height: 150px;
-    width: auto;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-}
-.icon-instagram{
-    margin: 5px;
-    height: 50px;
-    width: 50px;
-}
-.icon-facebook{
-    margin: 5px;
-    height: 50px;
-    width: 50px;
-}
-.icon-snapchat{
-    margin: 5px;
-    height: 50px;
-    width: 50px;
-}
-.icon-github{
-    margin: 5px;
-    height: 50px;
-    width: 50px;
-}
-ul{
-    top: 30px;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-}
-li{
-    list-style-type: none;
-    margin: 10px;
-    text-align: center;
-}
-a{
-    position: relative;
+.nav-menu :hover{
+    color: tomato;
     text-decoration: none;
-    display: inline-block;
-    padding: 15px 30px;
-    color: rgb(255, 81, 0);
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 24px;
-    overflow: hidden;
-    transition: 0.2s;
-}
-a:hover{
-    color: black;
-    background: chartreuse;
-    box-shadow: 0 0 40px chartreuse, 0 0 80px chartreuse;
-    transition-delay: 0.1s;
+    list-style: none;
 }
 
-#blink {
-            font-size: 40px;
-            font-weight: bold;
-            color: chartreuse;
-            transition: 0.5s;
-        }
+.main{
+    text-align: center;
+    color: black;
+    background-color: yellow;
+    border: 10px 20px;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    font-weight: bolder;
+    
+}
