@@ -48,8 +48,8 @@ header{
     list-style: none;
     margin-top: 30px;
     margin-right: 10%;
+    margin-left:10%;
     display: flex;
-    justify-content: space-between;
 }
 
 .nav-menu li{
@@ -81,15 +81,3 @@ header{
 }
 
 
-.toggle-button{
-    position: absolute;
-
-}
-
-@media (max-width: 400px) {
-    
-    .nav-menu li{
-        display: flex;
-        flex-direction: column;
-    }
-}
